@@ -19,31 +19,32 @@ export default class Welcome extends React.Component {
                 <br/>
                 <br/>
 
+                <div className="welcomeBox">
 
-                <Row id="mtCustom">
-                    <Col>
-                        <img src={jlogo} alt="" className="welcomeLogo"/>
-                    </Col>
-                </Row>
+                    <Row id="mtCustom">
+                        <Col>
+                            <img src={jlogo} alt="" className="welcomeLogo"/>
+                        </Col>
+                    </Row>
 
-                <Row>
-                    <Col className="text-white welcomeText">
-                        <h1>
-                            Hello, I'm <span>Jonathan Montoya</span>
-                        </h1>
-                        <h4>I'm happy you're here!</h4>
-                    </Col>
-                </Row>
+                    <Row>
+                        <Col className="text-white welcomeText">
+                            <h1>Hello, I'm <span>Jonathan Montoya</span>.</h1>
+                            <h4>I'm happy you're here!</h4>
+                        </Col>
+                    </Row>
 
-                <Row>
-                    <Col>
-                        <Link to="/home">
-                            <button className="welcomeBtn">
-                                Lets Get Started!
-                            </button>
-                        </Link>
-                    </Col>
-                </Row>
+                    <Row>
+                        <Col>
+                            <Link to="/home">
+                                <button className="welcomeBtn">
+                                    Lets Get Started!
+                                </button>
+                            </Link>
+                        </Col>
+                    </Row>
+                    
+                </div>
 
             </Container>
         );

@@ -1,15 +1,15 @@
-/* .welcome
+.welcomeBox
 {
-    animation-name: textbox-animation;
+    animation-name: welcomeBox;
     animation-timing-function: ease-out;
     animation-duration: 2s;
     animation-fill-mode: forwards;
 }
-@keyframes textbox-animation
+@keyframes welcomeBox
 {
-    0%{ transform: translateY(-500px); }
+    0%{ transform: translateY(-750px); }
     100%{ transform: translateY(auto); }
-} */
+} 
 
 #mtCustom
 {
@@ -21,10 +21,10 @@
     width: 100px;
     height: 100px;
     animation-name: logoWelcomeAnimation;
-    animation-duration: 4s;
+    animation-duration: 3s;
     animation-timing-function: ease-in;
     animation-fill-mode: forwards;
-    transition-delay: 1s;
+    transition-delay: 3s;
 }
 
 @keyframes logoWelcomeAnimation
@@ -35,7 +35,7 @@
 
 .welcomeText h1,h4
 {
-    font-size: 2.50rem;
+    font-size: 2.25rem;
     font-weight: 400;
 }
 
@@ -64,7 +64,25 @@
     cursor: pointer;
 }
 
-@media (max-width: 600px)
+@media (max-width: 765px)
+{
+    .welcomeText h1,h4
+    {
+       font-size: 1.80rem;
+    }
+
+   .welcomeBtn
+    {   
+
+        width: 175px;
+        height: 75px;
+        font-size: 1.25rem;
+
+    }
+
+}
+
+@media (max-width: 575px)
 {
     .welcomeText h1,h4
     {

@@ -64,18 +64,10 @@ export default class About extends React.Component {
                                 </Col>
                             </Row>
 
-                            <Row className="justify-content-center mt-2">
+                            <Row className="justify-content-center my-2">
                                 <a href="https://drive.google.com/file/d/19nVjrlqV3IRRW2eyxpBduX7wmmIfJaZb/view?usp=sharing" className="resume">
                                     View/Download Resume
                                 </a>
-                            </Row>
-
-                            <Row className="justify-content-center text-white">
-                                <Col xs={9}>
-                                    <p className="bye">
-                                        Thank you for taking the time to get to know me, hope to hear from you soon!
-                                    </p>
-                                </Col>
                             </Row>
                             
                         </Col>

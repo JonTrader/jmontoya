@@ -33,7 +33,7 @@ export default class About extends React.Component {
                                     <h4>Education:</h4>
                                 </Col>
 
-                                <Col xl={6}>
+                                <Col xl={6} className="photoInfo">
                                     <h4>Jonathan Montoya</h4>
                                     <h4>24 Years Old</h4>
                                     <h4>BS in Computer Science</h4>
@@ -72,7 +72,7 @@ export default class About extends React.Component {
 
                             <Row className="justify-content-center text-white">
                                 <Col xs={9}>
-                                    <p className="byeP">
+                                    <p className="bye">
                                         Thank you for taking the time to get to know me, hope to hear from you soon!
                                     </p>
                                 </Col>

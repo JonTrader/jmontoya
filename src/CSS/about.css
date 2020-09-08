@@ -1,0 +1,107 @@
+.aboutColumn
+{
+    margin-top: 25px;
+    border: 5px solid rgba(255, 255, 255, 0.6);
+    animation-name: squareAnimation;
+    animation-duration: 3s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes squareAnimation
+{
+  0% {opacity: 0;} 
+  100% {opacity: 1;}
+}
+
+.resume
+{
+    font-size: 1.150rem;
+    color: red;
+}
+
+.photoText h4
+{
+    font-size: 1.25rem;
+}
+
+.photo
+{
+    border: 2px solid rgba(255, 0, 0, 0.6);
+    height: 200px;
+    width: 200px;
+}
+
+.photoTitle
+{
+    color: red;
+    text-decoration: underline solid;
+}
+
+.description
+{
+    font-size: 1.125rem;
+    text-align: justify;
+}
+
+.byeP
+{
+    font-size: 1.40rem;
+    margin-top: 50px;
+    border-bottom: 1px solid red;
+    border-top: 1px solid red;
+    text-align: center;
+}
+
+@media (max-width: 500px)
+{
+
+    .byeP
+   {
+       font-size: 0.85rem;
+   }
+
+   .description
+    {
+        font-size: 0.90rem;
+        text-align: justify;
+    }
+
+    .resume
+    {
+        font-size: 1.0rem;
+    }
+
+    .photoText h4
+    {
+        font-size: 1rem;
+    }
+
+}
+
+@media (max-width: 1199px)
+{
+
+    .photo
+    {
+        height: 150px;
+        width: 150px;
+    }
+
+    .photoText
+    {
+        text-align: center;
+    }
+
+    .byeP
+    {
+        font-size: 1.125rem;
+    }
+
+}
+
+.resume
+{
+    color: red;
+    text-align: center;
+}

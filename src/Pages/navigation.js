@@ -30,9 +30,9 @@ export default class Navigation extends React.Component {
                                 
                                 <Link className="mr-4 nav-link" to="/about">About</Link>
                                 
-                                <Link className="mr-4 nav-link" to="/projects">Projects</Link>
+                                <Link className="nav-link" to="/projects">Projects</Link>
                                 
-                                <Link className="nav-link" to="/contact">Contact</Link>
+                                {/* <Link className="nav-link" to="/contact">Contact</Link> */}
 
                             </Nav>
 

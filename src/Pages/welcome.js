@@ -38,7 +38,7 @@ export default class Welcome extends React.Component {
                         <Col>
                             <Link to="/home">
                                 <button className="welcomeBtn">
-                                    Lets Get Started!
+                                    Let's Get Started!
                                 </button>
                             </Link>
                         </Col>

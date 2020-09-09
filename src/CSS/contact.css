@@ -32,11 +32,6 @@
     border-radius: 3px;
 }
 
-.contactTextarea
-{
-    height: 325px;
-}
-
 .submitBtn
 {
     width: 6rem;
@@ -52,4 +47,16 @@
     background-color: rgb(0, 30, 60);
     color: white;
     border-color: rgba(255, 0, 0, 0.75);
+}
+
+.success-msg
+{
+  color: green;
+  padding:10px 5px;
+}
+
+.err-msg
+{
+  color: red;
+  padding:10px 5px;
 }

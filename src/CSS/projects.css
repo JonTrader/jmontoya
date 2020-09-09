@@ -1,0 +1,44 @@
+.projectsContainer
+{
+    animation-name: projectsAnimation;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    transition: all 1s;
+}
+
+@keyframes projectsAnimation
+{
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.projectImgs
+{
+    width: 100%;
+    border: 2px solid white;
+    border-radius: 10px;
+	transition: all 200ms;
+}
+
+.projectImgs:hover
+{
+    border-color: red;
+}
+
+
+@media (max-width: 959px)
+{
+    .projectImgs
+    {
+        width: 75%;
+        
+    }
+
+    .imgProjects
+    {
+        text-align: center;
+    }
+
+}
+

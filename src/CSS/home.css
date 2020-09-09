@@ -1,0 +1,29 @@
+.homeCenter
+{
+  background-color: rgba(255, 0, 0, 0.6);
+  margin: 125px auto;
+  width: 250px;
+  height: 250px;
+  animation-name: myanimation;
+  animation-duration: 3s;
+  animation-delay: 0s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes myanimation {
+  0% {color: rgb(255, 255, 255); background-color: rgb(255, 0, 0) ; border-radius: 0 0 0 0; border: 3px solid rgb(255, 255, 255);}
+  25% {color: rgb(255, 0, 200); background-color: rgb(0, 0, 0);  border-radius: 50% 0 0 0; border: 3px solid rgb(255, 0, 200);}
+  50% {color: rgb(0, 0, 0); background-color: yellow; border-radius: 50% 50% 0 0; border: 3px solid rgb(0, 0, 0);}
+  75% {color: red; background-color: rgb(255, 255, 255); border-radius: 50% 50% 50% 0; border: 3px solid red;}
+  100% {color: rgb(255, 255, 255); background-color: rgb(0, 30, 60); border-radius: 50% 50% 50% 50%; border: 3px solid rgb(255, 0, 0);}
+}
+
+.homeCenter h2
+{
+  font-size: 2rem;
+  background-color: inherit;
+  width: 150px;
+  margin: 105px 50px;
+  font-weight: 600;
+}

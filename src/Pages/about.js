@@ -16,7 +16,7 @@ export default class About extends React.Component {
                 <Navigation />
                 <hr className="navLine"></hr>
 
-                <Container className="mb-5">
+                <Container className="my-5">
                     <Row className="justify-content-center">
 
                         <Col xs={11} lg={8} className="aboutColumn">

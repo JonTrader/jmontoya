@@ -23,9 +23,24 @@
   color: rgba(255, 255, 255, 0.80);
 }
 
+.form-control
+{
+    background-color: rgba(255, 255, 255, 0.70);
+    color: rgb(0, 0, 0);
+    height: 2.75rem;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 3px;
+}
+
+.contactTextarea
+{
+    height: 325px;
+}
+
 .submitBtn
 {
-    width: 125px;
+    width: 6rem;
+    height: 2.5rem;
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 5px;
     border: black 2px solid;
@@ -37,28 +52,4 @@
     background-color: rgb(0, 30, 60);
     color: white;
     border-color: rgba(255, 0, 0, 0.75);
-}
-
-
-.contactInput
-{
-    background-color: rgba(255, 255, 255, 0.6);
-    color: rgb(0, 0, 0);
-    width: 100%;
-    height: 100%;
-    border: 2px solid rgb(0, 0, 0);
-    border-radius: 3px;
-    padding-left: 5px; 
-}
-
-.contactTextarea
-{
-    background-color: rgba(255, 255, 255, 0.6);
-    color: rgb(0, 0, 0);
-    width: 100%;
-    height: 325px;
-    border: 2px solid rgb(0, 0, 0);
-    border-radius: 3px;
-    padding-left: 5px;
-    resize: none;
 }

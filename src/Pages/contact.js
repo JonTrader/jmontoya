@@ -5,14 +5,7 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Button from 'react-bootstrap/Button'
-
-
-
-
-
-
-
-
+import Form from 'react-bootstrap/Form'
 
 
 export default class Contact extends React.Component {
@@ -26,7 +19,8 @@ export default class Contact extends React.Component {
             <Navigation />
             <hr className="navLine"></hr>
 
-            <Container className="mb-5">
+
+            <Container className="my-5">
 
                 <Row className="justify-content-center">
 
@@ -38,51 +32,39 @@ export default class Contact extends React.Component {
                                 <hr className="contactLine"/>
                             </Col>
                         </Row>
+                        <br/>
+                        <br/>
 
-                        <form onSubmit={this.handleSubmit}>
-                        
-                            <Row className="justify-content-center fontSquares">
-                                <Col xs={7} md={5} className="mb-5">
-                                    Name
-                                    <input
-                                    type="text" 
-                                    placeholder="Name" 
-                                    onFocus={(e) => e.target.placeholder = ""} 
-                                    onBlur={(e) => e.target.placeholder = "Name"}  
-                                    required={true} className="contactInput" 
-                                    />
-                                </Col>
+                        <Form>
 
-                                <Col xs={7} md={5} className="mb-5" >
-                                    Email Address
-                                    <input 
-                                    type="email" 
-                                    placeholder="Email Address" 
-                                    onFocus={(e) => e.target.placeholder = ""} 
-                                    onBlur={(e) => e.target.placeholder = "Email Address"} 
-                                    required={true} className="contactInput" />
-                                </Col>
-                            </Row>
+                            <Form.Row className="justify-content-around">
+                                <Form.Group as={Col} xs={8} md={4} controlId="formGridName">
+                                    <Form.Label className="text-white pl-1">Name</Form.Label>
+                                    <Form.Control type="text" placeholder="Name" required={true}/>
+                                </Form.Group>
 
-                            <Row className="pt-3 fontSquares justify-content-center">
-                                <Col xs={8} md={10}>
-                                    Message
-                                    <textarea type="text" required={true} className="contactTextarea"/>
-                                </Col>
-                            </Row>
+                                <Form.Group as={Col} xs={8} md={4} controlId="formGridEmail">
+                                    <Form.Label className="text-white pl-1">Email</Form.Label>
+                                    <Form.Control type="email" placeholder="Email Address" required={true} />
+                                </Form.Group>
+                            </Form.Row>
 
-                            <Row className="justify-content-center">
-                                    <Button type="submit" variant="primary" size="lg" className="mt-5 submitBtn">
+                            <Form.Row className="justify-content-around">
+
+                                <Form.Group as={Col} xs={8} md={10} controlId="formGridMessage">
+                                    <Form.Label className="text-white pl-1">Message</Form.Label>
+                                    <Form.Control className="contactTextarea" type="text" required={true}/>
+                                </Form.Group>
+
+                            </Form.Row>
+
+                            <Row className="justify-content-center mt-2">
+                                    <Button type="submit" className="submitBtn">
                                         Send
                                     </Button>
                             </Row>
 
-                            <Row className="justify-content-center text-white">
-                                <p>
-                                    Feature not working at the moment. Please contact me directly.
-                                </p>
-                            </Row>
-                        </form>
+                        </Form>
 
                     </Col>
                 </Row>

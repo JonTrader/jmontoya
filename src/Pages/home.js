@@ -61,7 +61,7 @@ export default class Home extends React.Component {
                 </Navbar>
                 <hr className="navLine" />
 
-                <Container >
+                <Container className="content">
 
                     <Row id="intro">
 

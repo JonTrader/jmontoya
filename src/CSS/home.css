@@ -1,8 +1,12 @@
 .container
 {
   color: #b7c3eb;
+}
+
+.content
+{
   animation-name: containerAnimation;
-  animation-duration: 3s;
+  animation-duration: 2s;
   animation-delay: 0s;
   animation-timing-function: ease-out;
   animation-fill-mode: forwards;
@@ -10,8 +14,8 @@
 
 @keyframes containerAnimation
 {
-  0%{ opacity: 0%; }
-  100%{ opacity: 100%; }
+  0%{ opacity: 0; }
+  100%{ opacity: 1; }
 }
 
 #intro

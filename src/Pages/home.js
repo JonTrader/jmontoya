@@ -35,7 +35,7 @@ export default class Home extends React.Component {
                     <Container>
                             
                         <Navbar.Brand>
-                            <Link to="/home">
+                            <Link>
                                 <img src={jlogo} className="navLogo" alt=""/>
                             </Link>
                             </Navbar.Brand>

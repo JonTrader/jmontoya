@@ -65,7 +65,7 @@ export default class Home extends React.Component {
 
                     <Row id="intro">
 
-                        <Col lg={6}>
+                        <Col lg={6} className="order-2 order-lg-1">
 
                             <h1>Hello, my name is</h1>
 
@@ -88,7 +88,7 @@ export default class Home extends React.Component {
                             </a>
                         </Col>
 
-                        <Col className="align-self-center text-center" lg={6}>
+                        <Col className="align-self-center text-center order-1 order-lg-2" lg={6}>
                             <span className="web">
                                 <p>WELCOME!</p>
                             </span>
@@ -163,7 +163,7 @@ export default class Home extends React.Component {
                                 <div className="project">
                                     <h6>Design Pad - Drag & Drop</h6>
                                     <a href="https://github.com/JonTrader/design-pad">
-                                        <img src={designpad} href alt=""/>
+                                        <img src={designpad} alt=""/>
                                     </a>
                                 </div>
 
